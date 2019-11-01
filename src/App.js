@@ -1,50 +1,15 @@
-import React, { useState, useEffect, useMemo, useCallback } from 'react';
+import React from 'react';
+import { ToastContainer } from 'react-toastify';
 
-function App() {
-  const [tech, setTech] = useState([]);
-  const [newTech, setNewTech] = useState('');
+import Routes from './routes';
+import GlobalStyle from './styles/global';
 
-  /*
-   * useCallback só recriar a função quando as variaves passada
-   * como dependencia mudar. Retorna uma função
-   */
-  const handleAdd = useCallback(() => {
-    setTech([...tech, newTech]);
-    setNewTech('');
-  }, [newTech, tech]);
-
-  // useEffect sem passar dependencia será executado somente uma vez
-  useEffect(() => {
-    const storageTech = localStorage.getItem('tech');
-
-    if (storageTech) {
-      setTech(JSON.parse(storageTech));
-    }
-  }, []);
-
-  // useEffect sera executado toda vez que a variavel tech mudar
-  useEffect(() => {
-    localStorage.setItem('tech', JSON.stringify(tech));
-  }, [tech]);
-
-  // useMemo retorna um valor toda vez que a variavel tech mudar
-  const techSize = useMemo(() => tech.length, [tech]);
-
+export default function App() {
   return (
     <>
-      <ul>
-        {tech.map(t => (
-          <li key={t}>{t}</li>
-        ))}
-      </ul>
-      <span>Você tem {techSize} tecnologias</span>
-      <br />
-      <input type="text" onChange={e => setNewTech(e.target.value)} />
-      <button type="button" onClick={handleAdd}>
-        Adicionar
-      </button>
+      <Routes />
+      <GlobalStyle />
+      <ToastContainer />
     </>
   );
 }
-
-export default App;

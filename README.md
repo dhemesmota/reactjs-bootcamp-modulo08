@@ -1,68 +1,83 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  GoStack 9.0
+  <br>
+</h1>
 
-## Available Scripts
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/dhemesmota/reactjs-bootcamp-modulo08">
+  
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/dhemesmota/reactjs-bootcamp-modulo08">
+  
+  <img alt="GiHub Issues" src="https://img.shields.io/github/issues/dhemesmota/reactjs-bootcamp-modulo08" >
+  
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/dhemesmota/reactjs-bootcamp-modulo08">
+  
+  <img alt="GitHub License" src="https://img.shields.io/github/license/dhemesmota/reactjs-bootcamp-modulo08">
 
-In the project directory, you can run:
+</p>
 
-### `yarn start`
+<h4 align="center">TechList</h4>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img alt="Desafio 05" src="https://user-images.githubusercontent.com/26680031/68006087-2fbfd980-fc56-11e9-9c83-3d0841c377f5.gif" >
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<p align="center">
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#clipboard-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#page_with_curl-instruções">Instruções</a>
+</p>
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :rocket: Tecnologias
 
-### `yarn build`
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [ReactJS][reactjs]
+- [React Hooks][react-hooks]
+- [React Toastify][react-toastify]
+- [Prettier][prettier]
+- [Eslint][eslint]
+- [Axios][axios]
+- [Styled Components][styled-components]
+- [...][...]
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :clipboard: Funcionalidades
+- Adicionar tecnologias
 
-### `yarn eject`
+## :page_with_curl: Instruções 
+Para executar esse aplicativo você precisa ter o [Git](https://git-scm.com), [Yarn](https://yarnpkg.com) ou [NPM](https://www.npmjs.com/get-npm) instalado no seu computador.<br>
+No seu prompt de comando:
+```bash
+# Clone este repositório
+$ git clone git@github.com:dhemesmota/reactjs-bootcamp-modulo08.git
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Vá para o repositório
+$ cd reactjs-bootcamp-modulo08
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Instale as dependências mobile
+$ yarn install
+$ yarn start
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## :memo: Licença
+Esse projeto está sob a licença MIT. Veja o arquivo [Licença](https://github.com/dhemesmota/reactjs-bootcamp-modulo08/blob/master/LICENSE) 
+para mais detalhes.
 
-## Learn More
+[reactjs]: https://pt-br.reactjs.org/
+[react-native]: https://facebook.github.io/react-native/
+[nodejs]: https://nodejs.org/en/
+[react-router-dom]: https://www.npmjs.com/package/react-router-dom
+[react-toastify]: https://github.com/fkhadra/react-toastify
+[styled-components]: https://www.styled-components.com/
+[eslint]: https://eslint.org/
+[prettier]: https://prettier.io/
+[axios]: https://github.com/axios/axios
+[android-studio]: https://developer.android.com/studio
+[...]: https://github.com/dhemesmota/gympoint
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[postbird]: https://electronjs.org/apps/postbird
+[mongodb-compass]: https://www.mongodb.com/products/compass
+[insomnia]: https://insomnia.rest
+[docker]: https://docs.docker.com/docker-for-windows/install/
+[react-hooks]: https://pt-br.reactjs.org/docs/hooks-intro.html
